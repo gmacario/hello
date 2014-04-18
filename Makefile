@@ -3,5 +3,5 @@ all:	hello
 help:
 	@echo Please read Makefile
 
-hello:	hello.c
-	$(CC) -o hello hello.c
+hello:	src/hello.c
+	$(CC) -o hello $<
