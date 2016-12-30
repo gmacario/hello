@@ -1,0 +1,7 @@
+# Create some simple test to please CircleCI
+test:
+  post:
+    - ls -la
+    - make
+    
+# EOF
